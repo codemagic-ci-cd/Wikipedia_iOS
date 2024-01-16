@@ -1,7 +1,7 @@
 definitions:
   workflow: &base_workflow
     environment:
-      xcode: latest
+      xcode: 14.2
       vars:
         XCODE_PROJECT: "Wikipedia.xcodeproj"
         XCODE_SCHEME: "Wikipedia"
