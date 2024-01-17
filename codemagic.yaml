@@ -14,7 +14,7 @@ definitions:
       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
         script: keychain initialize
       - name: Fetch signing files
-        script: app-store-connect fetch-signing-files org.wikimedia.wikipedia --type IOS_APP_STORE --create
+        script: app-store-connect fetch-signing-files X8NNQ9CYL2.org.wikimedia.wikipedia --type IOS_APP_STORE --create
       - name: Use system default keychain
         script: keychain add-certificates
       - name: Set up code signing settings on Xcode project
