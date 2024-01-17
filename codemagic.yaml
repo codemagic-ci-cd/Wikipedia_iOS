@@ -3,7 +3,7 @@ definitions:
     environment:
       groups: 
        - ios_creds
-      xcode: 14.2
+      xcode: 15.2
       vars:
         XCODE_PROJECT: "Wikipedia.xcodeproj"
         XCODE_SCHEME: "Wikipedia"
