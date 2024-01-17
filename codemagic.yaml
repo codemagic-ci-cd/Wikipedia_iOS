@@ -34,9 +34,7 @@ definitions:
                 --clean \
                 --project $XCODE_PROJECT \
                 --scheme $XCODE_SCHEME \ 
-                --sdk iphonesimulator \ 
-                --device iPhone 14 Pro,OS=16.2
-                --archive-flags="-destination 'generic/platform=iOS'"
+                --device iPhone 14 
     # time xcodebuild clean test -project $XCODE_PROJECT -scheme $XCODE_SCHEME -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
 
 workflows:
