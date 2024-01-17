@@ -33,8 +33,7 @@ definitions:
           xcode-project run-tests \
                 --clean \
                 --project $XCODE_PROJECT \
-                --scheme $XCODE_SCHEME \ 
-                --device iPhone 14 
+                --scheme $XCODE_SCHEME 
     # time xcodebuild clean test -project $XCODE_PROJECT -scheme $XCODE_SCHEME -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
 
 workflows:
