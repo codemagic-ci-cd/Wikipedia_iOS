@@ -30,7 +30,7 @@ definitions:
       #     time xcodebuild clean build -project $XCODE_PROJECT -scheme $XCODE_SCHEME -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2' -configuration Debug CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
       - name: Running tests
         script: |
-              time xcodebuild clean test -project $XCODE_PROJECT -scheme $XCODE_SCHEME -sdk iphonesimulator
+              time xcodebuild clean test -project $XCODE_PROJECT -scheme $XCODE_SCHEME -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15 Pro,OS=17.0'
     # xcodebuild -project Wikipedia.xcodeproj -scheme Wikipedia -sdk iphonesimulator -enableCodeCoverage NO -destination 'generic/platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2' test
 
           # xcode-project run-tests \
